@@ -7,6 +7,6 @@ services:
       context: ./
       dockerfile: Dockerfile
     volumes:
-      - /data/jhooq-springboot-container
+      - /data/ghdfhrqhtmmm-springboot-container
     ports:
       - "8080-8100:8080"
