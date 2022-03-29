@@ -6,11 +6,11 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      app: ghdfhrqhtmmm-springboot
+      app: httpd
   template:
     metadata:
       labels:
-        app: ghdfhrqhtmmm-springboot
+        app: httpd
     spec:
       containers:
         - name: springboot
@@ -31,4 +31,4 @@ spec:
     - port: 80
       targetPort: 8080
   selector:
-    app: ghdfhrqhtmmm-springboot
+    app: httpd
