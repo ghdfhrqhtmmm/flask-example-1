@@ -13,7 +13,7 @@ spec:
       labels:
     spec:
       containers:
-      - name: apache-docker
+      - name: template
         image: ghdfhrqhtmmm/webtest1.0
       ports:
     - containerPort: 80
